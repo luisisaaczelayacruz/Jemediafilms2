@@ -1477,7 +1477,18 @@ section,
 .contact .info-item+.info-item {
   margin-top: 40px;
 }
+<<<<<<< HEAD
 
+=======
+.link-footer-servicios{
+  position: relative;
+  left: 15%;
+}
+.link-footer-algunoslinks{
+  position: relative;
+  left: 85% !important;
+}
+>>>>>>> d9cd8d261be632e2e66c9c650f4c8e60099f3189
 .contact .info-item i {
   color: var(--contrast-color);
   background: var(--accent-color);

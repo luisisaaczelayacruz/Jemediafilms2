@@ -30,7 +30,11 @@ function enviarCorreoConfirmacion($email, $name) {
         
         $mailconfirmacion->Body = '
             <div style="font-family: Arial, sans-serif; font-size: 16px; color: #333; padding: 30px; border: 1px solid #ddd; border-radius: 10px; max-width: 600px; margin: 0 auto; text-align: center; background-color: #f9f9f9;">
+<<<<<<< HEAD
                 <img src="https://68.183.120.77/img/Je Media fils.png" alt="Logo" style="max-width: 150px; margin-bottom: 20px;">
+=======
+                <img src="https://tu-servidor.com/ruta-del-logo.png" alt="Logo" style="max-width: 150px; margin-bottom: 20px;">
+>>>>>>> d9cd8d261be632e2e66c9c650f4c8e60099f3189
                 <h1 style="color: #0052cc; margin-bottom: 20px;">¡Hola, ' . htmlspecialchars($name) . '!</h1>
                 <p style="margin-bottom: 15px;">Gracias por escribirnos. Hemos recibido tu mensaje y nos pondremos en contacto contigo lo más pronto posible.</p>
                 <p style="margin-bottom: 25px;">Mientras tanto, estate pendiente a tu correo.</p>
